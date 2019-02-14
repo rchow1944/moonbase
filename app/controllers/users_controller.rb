@@ -20,29 +20,22 @@ class UsersController < ApplicationController
    end
 
    def show
-      @user=User.find(params[:id])
-      # count=0
-      # @user.moons.each do |moon|
-      #   if !moon.
-      #     moon.planet.user_id == @user.id
-      #     count+=1
-      #   end
-      # end
+        @user=User.find(params[:id])
    end
 
    def edit
+    flash[:error]=nil
      @user=User.find(params[:id])
    end
 
    def update
       @user=User.find(params[:id])
-      if @user.valid?
-        @user.update(user_params)
+      if @user.update(user_params)
         redirect_to "/home/users/#{@user.id}"
       else
         flash[:error]=[]
-        flash[:error]=user.errors.full_messages
-        render :new
+        flash[:error]=@user.errors.full_messages
+        render :edit
       end
    end
 
