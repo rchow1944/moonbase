@@ -13,7 +13,7 @@ class User < ApplicationRecord
 
     def lottery_win?
       #code
-      rand(1..100) >= 99
+      rand(1..100) >= 50
     end
 
     def get_planet_count

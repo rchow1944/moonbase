@@ -164,11 +164,7 @@ nav #menu li:hover {
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
 
 body {
-<<<<<<< HEAD
-    font: 18px/1.5 "PT Sans Narrow", sans-serif;
-=======
     font: 20px/1.5 "PT Sans Narrow", sans-serif;
->>>>>>> 7dceb02028239733f34bff7e746b5d5a24c7cbb1
     background: #080e24 url(http://neography.com/experiment/circles/solarsystem/bg.jpg) repeat;
     color: #626668;
 }
