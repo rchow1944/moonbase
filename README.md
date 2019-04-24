@@ -2,12 +2,18 @@
 Website that allows users to claim moons and conquer planets in our solar system. Claiming all the moons 
 of a planet grants users ownership of that planet. 
 
+<img src="https://i.imgur.com/CEzdIXX.jpg" 
+alt="MoonBase" width="800" height="500" border="10" />
+
 ## Features
 * Ability to create, edit, and delete accounts
 * Claim moons on their respective info page
 * Ownership of a planet is shown on a planet's info page
 * Search feature for a specific moon
 * Lottery feature to get moons that do not belongs to the user (can steal moons from other users)
+
+<img src="https://i.imgur.com/C9cALAo.png" 
+alt="MoonBase" width="800" height="500" border="10" />
 
 ## Setup
 Clone this repo to your desktop and run ```bundle install``` to install its dependencies.
